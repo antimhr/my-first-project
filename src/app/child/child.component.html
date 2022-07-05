@@ -1,0 +1,15 @@
+<div class="container">
+<!-- parent to child -->
+<!-- <h4 class="container">{{item}}</h4> -->
+
+<!-- <li>{{item2.name}}</li>
+<li>{{item2.email}}</li>
+<li>{{item2.age}}</li> -->
+
+
+<!-- child to parent -->
+<div class="row">
+    <input type="text" #box />
+    <button (click)="updateDataEvent.emit(box.value)">Update Data's</button>
+</div>
+</div>

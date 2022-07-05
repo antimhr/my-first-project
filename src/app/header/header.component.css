@@ -1,0 +1,21 @@
+
+nav{
+    background-color: rgb(224, 224, 224);
+}
+ul{
+    width: fit-content;
+    font-size: 2rem;
+    display: flex;
+    list-style: none;
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    /* border: 1px solid green; */
+}
+li{
+    padding: .6rem 1.2rem;
+}
+li:hover{
+    background-color: rgba(155, 224, 155, 0.771);
+    
+}

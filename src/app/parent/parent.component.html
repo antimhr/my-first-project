@@ -1,0 +1,21 @@
+<div class="container" [ngStyle]="{'border': '1px solid red', 'padding': '20px'}">
+    <p>parent works!</p>
+
+    <!-- parent to child -->
+    <!-- <div class="container">
+    <app-child [item]="data"></app-child>
+    <button class="btn btn-primary" (click)="updateChild()">Update Chld Component</button>
+</div> -->
+    <hr>
+    <!-- <div class="container">
+    <ul *ngFor="let user of users">
+        <app-child [item2]="user"></app-child>
+    </ul>
+</div> -->
+
+
+    <!-- child to parent -->
+    <h3>{{ title }}</h3>
+    <h3>{{ text }}</h3>
+    <app-child (updateDataEvent)="updateData($event)"></app-child>
+</div>
